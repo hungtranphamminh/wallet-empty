@@ -18,5 +18,15 @@
 		"16": "/icon-w3a.png",
 		"48": "/icon-w3a.png",
 		"128": "/icon-w3a.png"
+	},
+	"permissions": [
+		"storage",
+		"activeTab",
+		"scripting",
+		"tabs"
+	],
+	"background": {
+		"service_worker": "service_worker.js",
+		"type": "module"
 	}
 }

@@ -8,6 +8,10 @@ import Info from "./pages/info/Info";
 /* import RPC from "./web3RPC"; // for using web3.js
  */
 
+import {Link} from 'react-router-dom'
+
+
+
 function App() {
  
   const [account,setAccount] = useState(false)
@@ -29,12 +33,11 @@ function App() {
 
   return (
     <div className="container">
-      
       <button onClick={createAcc}>
           Create account
       </button>
-      <Login />
-      <Info />
+      <Link to="/">Login page</Link>
+      <Link to="/info">Info page</Link>
     </div>
   );
 }
