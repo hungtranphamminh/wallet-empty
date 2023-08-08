@@ -1,5 +1,4 @@
-/* import { Web3Auth } from "@web3auth/modal";
-import { CHAIN_NAMESPACES, SafeEventEmitterProvider } from "@web3auth/base"; */
+
 import "./App.css";
 
 
