@@ -1,7 +1,6 @@
 
 
 ## How to Use
-Install & Run:
 
 ```bash
 npm install
